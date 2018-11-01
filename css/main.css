@@ -11,7 +11,6 @@ body {
   color: #fff;
   font-family: Merriweather, serif;
   margin: 0;
-  flex-wrap: 100%;
 }
 
 h1 {
@@ -25,9 +24,7 @@ h1 {
 
 ul {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-grow: 2;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -35,7 +32,19 @@ ul {
 ul li {
   font-size: 1.125rem;
   background-color: #d05c2e;
-  border: .1em solid #a63f38;
+  border: .07em solid #a63f38;
+  text-align: center;
   padding: .4em 0;
   margin: 0;
+  width: 33.333%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul li:hover {
+  background-color: #a63f38;
+}
+
+img {
+  width: 40px;
 }
