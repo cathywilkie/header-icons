@@ -32,7 +32,7 @@ div {
   align-items: center;
 }
 
-nav  ul {
+nav ul {
   display: flex;
   align-items: center;
   margin: 0;
@@ -42,9 +42,6 @@ nav  ul {
 
 nav ul li {
   text-align: center;
-  background-color: #d05c2e;
-  border: .07em solid #a63f38;
-  padding: .4rem 0;
   margin: 0;
   width: 33.333%;
 }
@@ -53,9 +50,13 @@ nav ul li a {
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
+  background-color: #d05c2e;
+  border: .07em solid #a63f38;
+  padding: .4rem 0;
+  display: block;
 }
 
-ul li:hover {
+ul li a:hover {
   background-color: #a63f38;
 }
 
